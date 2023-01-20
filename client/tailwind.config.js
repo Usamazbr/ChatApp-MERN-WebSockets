@@ -9,6 +9,16 @@ module.exports = {
         transparent: "transparent",
         current: "currentColor",
         whiteweb: "#F4FEFD",
+        discordgray: {
+          900: "#202225",
+          800: "#2f3136",
+          700: "#36393f",
+          600: "#4f545c",
+          400: "#d4d7dc",
+          300: "#e3e5e8",
+          200: "#ebedef",
+          100: "#f2f3f5",
+        },
         blueweb: {
           DEFAULT: "#011837",
           50: "#e9f2ff",
@@ -24,6 +34,7 @@ module.exports = {
           900: "#022b64",
           950: "#01224d",
         },
+        chromegrey: "#35363a",
       },
       spacing: {
         100: "26rem",
@@ -39,6 +50,10 @@ module.exports = {
         180: "46.8rem",
         186: "48.36rem",
         200: "52rem",
+      },
+      borderRadius: {
+        "4xl": "2rem",
+        "8xl": "4rem",
       },
 
       keyframes: {
